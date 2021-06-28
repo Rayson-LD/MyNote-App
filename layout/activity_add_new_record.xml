@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewRecord" >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="66dp" />
+
+    <EditText
+        android:id="@+id/txtnama"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Enter Your Title" />
+
+    <EditText
+        android:id="@+id/txtjbt"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:layout_below="@+id/txtnama"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_weight="1"
+        android:hint="Write Away !!" />
+
+    <Button
+        android:id="@+id/btnsavenew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtjbt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginRight="165dp"
+        android:layout_weight="1"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:text="Save New Note " />
+
+
+</RelativeLayout>

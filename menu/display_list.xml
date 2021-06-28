@@ -1,0 +1,13 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:title="Add new Record"
+        android:id="@+id/m_add_record"
+        android:icon="@android:drawable/ic_input_add"
+        android:iconTint="@color/white"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Appinfo"
+        android:title="info"
+        />
+</menu>
